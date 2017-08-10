@@ -1,5 +1,5 @@
 ---
 buildpack: php_buildpack
 memory: 256M
-name: foia-dot-gov
+name: adborden-foia-dot-gov
 path: _site

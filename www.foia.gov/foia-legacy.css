@@ -515,10 +515,29 @@ input.checkBox {height:15px; width: 15px; border: 1px solid #d9d6d6;}
 }
 
 /* Indicate Current Active Page */
-#tabnav li a.selected {
-    background: url(images/tab-home_on.png) 0 0 no-repeat;
+#tabnav li .selected {
     width: 104px;
     color: #121b26;
+}
+
+#tabnav li .selected.home {
+  background: url(images/tab-home_on.png) 0 0 no-repeat;
+}
+
+#tabnav li .selected.data {
+  background: url(images/tab-data_on.png) 0 0 no-repeat;
+}
+
+#tabnav li .selected.reports {
+  background: url(images/tab-reports_on.png) 0 0 no-repeat;
+}
+
+#tabnav li .selected.find {
+  background: url(images/tab-find_on.png) 0 0 no-repeat;
+}
+
+#tabnav li .selected.about {
+  background: url(images/tab-about_on.png) 0 0 no-repeat;
 }
 
 .articleimageborder {

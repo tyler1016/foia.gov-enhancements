@@ -22,6 +22,6 @@ test:
 	@echo OK
 
 deploy:
-	bin/cf_deploy.sh foia-dot-gov doj-foia-discovery prototype
+	bin/cf_deploy.sh adborden-foia-dot-gov doj-foia-discovery prototype
 
 .PHONY: all build deploy test
