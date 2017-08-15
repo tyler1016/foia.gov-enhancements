@@ -9,6 +9,18 @@ discovery sprint with the Department of Justice.
 
 ## Development
 
+### Prequisites
+
+* [Ruby](https://www.ruby-lang.org/en/) 2.3.4 (specified in `.ruby-version`)
+* bundler
+
+### Ruby
+
+You can manage multiple versions of ruby using [rvm](https://rvm.io/).
+
+
+### Setup
+
 Install the dependencies.
 
     $ gem install bundler
