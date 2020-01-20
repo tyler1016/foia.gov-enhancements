@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container } from 'flux/utils';
+import FoiaReportFormSectionOne from '../components/foia_report_form_section_one';
 import FoiaReportFormSectionTwo from '../components/foia_report_form_section_two';
 
 import annualReportDataFormStore from '../stores/annual_report_data_form';
@@ -16,6 +17,9 @@ class AnnualReportDataPage extends Component {
     return (
       <div className="usa-grid" ref={(ref) => { this.element = ref; }}>
         <h1>Create a Report</h1>
+         <div>
+          <FoiaReportFormSectionOne />
+        </div>
         <form>
           <FoiaReportFormSectionTwo />
         </form>
